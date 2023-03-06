@@ -1,0 +1,36 @@
+@media only screen and (max-width: 450px){
+
+    nav{
+        padding: 25px 20px !important;
+    }
+
+    .landing-pages{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .container{
+        margin: 100px auto;
+        max-height: 180px;
+        max-width: 310px;
+    }
+
+    .first-h1{
+        font-size: 40px;
+        margin-left: 60px;
+        position: relative;
+    }
+
+    .first-h1::after{
+        width: 90%;
+        position: absolute;
+        left: -30px !important;
+    }
+
+    main h1{
+        width: 300px;
+    }
+
+
+}
